@@ -1,0 +1,377 @@
+[gd_resource type="TileSet" format=3 uid="uid://ba6jpyfrbymb5"]
+
+[ext_resource type="Texture2D" uid="uid://b4twus6dq53t1" path="res://assets/environment/moon/terrain_standard_krater.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://byxvmwy6x1kbt" path="res://assets/environment/moon/terrain_wand_weg.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cu1crkn4mqjso" path="res://assets/environment/World/pixellab-tileset-dark-purple-and-deep-blue-alien-mossy-grass-soft-warm-sandy-29194bd4.png" id="3_5v0qb"]
+[ext_resource type="Texture2D" uid="uid://ciimonsw8ypru" path="res://assets/environment/World/pixellab-tileset-gentle-organic-transition-between-normal-meadow-lush-meadow-113b5cbd.png" id="3_vket4"]
+[ext_resource type="Texture2D" uid="uid://dew20a0eqcv26" path="res://assets/environment/World/pixellab-tileset-lush-meadow-grass-with-soft-green-blades-flower-meadow-with-fa585946.png" id="4_5v0qb"]
+[ext_resource type="Texture2D" uid="uid://bb74p5nn677x3" path="res://assets/environment/World/dark_alien_rock_cliff_face_deep_violet_and_indigo.png" id="4_joiwh"]
+[ext_resource type="Texture2D" uid="uid://bf0ns48yjb1wu" path="res://assets/environment/World/pixellab-tileset-lush-meadow-grass-with-soft-green-blades-slightly-elevated-g-91982e93.png" id="5_08gxv"]
+[ext_resource type="Texture2D" uid="uid://bg0snlua63edo" path="res://assets/environment/World/pixellab-tileset-soft-alien-soil-in-warm-beige-dusty-mauve-and-lush-alien-mea-eb170815.png" id="5_av5vb"]
+[ext_resource type="Texture2D" uid="uid://bj4ag3mc0vcbh" path="res://assets/environment/World/pixellab-tileset-lush-meadow-grass-with-soft-green-blades-soft-cleared-camp-g-a6385081.png" id="6_joiwh"]
+[ext_resource type="Texture2D" uid="uid://c6wge5v1vnjfk" path="res://assets/environment/World/pixellab-tileset-narrow-woodland-trail-blending-into-darker-forest-lush-meado-e5bdc5f4.png" id="7_av5vb"]
+[ext_resource type="Texture2D" uid="uid://bmeojyoyig61p" path="res://assets/environment/World/pixellab-tileset-shimmering-wavy-water-surface-with-gentle-ripples-lush-meado-54071532.png" id="8_u3ll2"]
+[ext_resource type="Texture2D" uid="uid://be3qrbtx2dvsj" path="res://assets/environment/World/pixellab-tileset-soft-forest-floor-with-dark-soil-fallen-leaves-lush-meadow-g-ccfc69d1.png" id="9_mk55n"]
+[ext_resource type="Texture2D" uid="uid://crdisvjmjcywm" path="res://assets/environment/World/pixellab-tileset-worn-grassy-path-edge-with-irregular-organic-packed-dirt-pat-b8353ff6.png" id="10_kt3gt"]
+
+[sub_resource type="TileSetAtlasSource" id="TSAS_1"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/terrain_set = 0
+1:0/0 = 0
+1:0/0/terrain_set = 0
+2:0/0 = 0
+2:0/0/terrain_set = 0
+3:0/0 = 0
+3:0/0/terrain_set = 0
+0:1/0 = 0
+0:1/0/terrain_set = 0
+1:1/0 = 0
+1:1/0/terrain_set = 0
+2:1/0 = 0
+2:1/0/terrain_set = 0
+3:1/0 = 0
+3:1/0/terrain_set = 0
+0:2/0 = 0
+0:2/0/terrain_set = 0
+1:2/0 = 0
+1:2/0/terrain_set = 0
+2:2/0 = 0
+2:2/0/terrain_set = 0
+3:2/0 = 0
+3:2/0/terrain_set = 0
+0:3/0 = 0
+0:3/0/terrain_set = 0
+1:3/0 = 0
+1:3/0/terrain_set = 0
+2:3/0 = 0
+2:3/0/terrain_set = 0
+3:3/0 = 0
+3:3/0/terrain_set = 0
+
+[sub_resource type="TileSetAtlasSource" id="TSAS_2"]
+texture = ExtResource("2")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+0:0/0/terrain_set = 1
+1:0/0 = 0
+1:0/0/terrain_set = 1
+2:0/0 = 0
+2:0/0/terrain_set = 1
+3:0/0 = 0
+3:0/0/terrain_set = 1
+0:1/0 = 0
+0:1/0/terrain_set = 1
+1:1/0 = 0
+1:1/0/terrain_set = 1
+2:1/0 = 0
+2:1/0/terrain_set = 1
+3:1/0 = 0
+3:1/0/terrain_set = 1
+0:2/0 = 0
+0:2/0/terrain_set = 1
+1:2/0 = 0
+1:2/0/terrain_set = 1
+2:2/0 = 0
+2:2/0/terrain_set = 1
+3:2/0 = 0
+3:2/0/terrain_set = 1
+0:3/0 = 0
+0:3/0/terrain_set = 1
+1:3/0 = 0
+1:3/0/terrain_set = 1
+2:3/0 = 0
+2:3/0/terrain_set = 1
+3:3/0 = 0
+3:3/0/terrain_set = 1
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_08gxv"]
+texture = ExtResource("3_5v0qb")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u3ll2"]
+texture = ExtResource("4_joiwh")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+7:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+7:5/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mk55n"]
+texture = ExtResource("5_av5vb")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s54nw"]
+texture = ExtResource("3_vket4")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c1mlf"]
+texture = ExtResource("4_5v0qb")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2pewk"]
+texture = ExtResource("5_08gxv")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ygpk3"]
+texture = ExtResource("6_joiwh")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5ser0"]
+texture = ExtResource("7_av5vb")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b7ewy"]
+texture = ExtResource("8_u3ll2")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h824x"]
+texture = ExtResource("9_mk55n")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6uc4k"]
+texture = ExtResource("10_kt3gt")
+texture_region_size = Vector2i(32, 32)
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[resource]
+tile_size = Vector2i(32, 32)
+sources/0 = SubResource("TSAS_1")
+sources/1 = SubResource("TSAS_2")
+sources/2 = SubResource("TileSetAtlasSource_s54nw")
+sources/3 = SubResource("TileSetAtlasSource_c1mlf")
+sources/4 = SubResource("TileSetAtlasSource_2pewk")
+sources/5 = SubResource("TileSetAtlasSource_ygpk3")
+sources/6 = SubResource("TileSetAtlasSource_5ser0")
+sources/7 = SubResource("TileSetAtlasSource_b7ewy")
+sources/8 = SubResource("TileSetAtlasSource_h824x")
+sources/9 = SubResource("TileSetAtlasSource_6uc4k")
+sources/10 = SubResource("TileSetAtlasSource_08gxv")
+sources/11 = SubResource("TileSetAtlasSource_u3ll2")
+sources/12 = SubResource("TileSetAtlasSource_mk55n")
